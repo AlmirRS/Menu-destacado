@@ -8,8 +8,7 @@
 body
 {
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	padding: 30px 50px;	
 	min-height: 100vh;
 	background: #000;
 	overflow: hidden;
