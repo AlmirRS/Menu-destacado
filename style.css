@@ -8,11 +8,33 @@
 body
 {
 	display: flex;
-	padding: 30px 50px;	
+	padding: 200px 300px;	
 	min-height: 100vh;
 	background: #000;
 	overflow: hidden;
 }
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(92, 232, 190), #f00);
+    clip-path: circle(30% at 90% 70%);
+}
+
+body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#0ff, #f00);
+    clip-path: circle(12% at 70% 10%);
+}
+
 ul li
 {
 	list-style: none;
