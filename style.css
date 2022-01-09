@@ -20,7 +20,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgb(92, 232, 190), #f00);
+    background: linear-gradient(rgb(92, 232, 190), rgb(0, 146, 85));
     clip-path: circle(30% at 90% 70%);
 }
 
@@ -31,7 +31,7 @@ body::after {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(#0ff, #f00);
+    background: linear-gradient(#0ff, rgb(0, 49, 22));
     clip-path: circle(12% at 70% 10%);
 }
 
